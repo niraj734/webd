@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d5ff3f;
+}
+h1{
+    
+   
+      font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+   
+   
+        
+}
+.navi{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+    
+}
+.side{
+    display: flex;
+    gap: 60px;
+   
+}
+.aa{
+    font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    color: #3d3b3b;
+    text-decoration: none;
+    
+}
+.digi{
+    padding: 20px 49px;
+   
+        /*font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 9rem;*/
+
+      
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+    font-size: 11rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 50px;
+  
+
+      
+}
+.ppa{
+    line-height: 145px;
+}
+.round{
+    background-color: black;
+    height: 60px;
+    width: 300px;
+    border-radius: 50px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1662972580899-b64ac990c9e9?q=80&w=2021&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+    background-repeat: no-repeat
+    
+    ;
+    background-size: cover;
+}
+.mini-round{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #d5ff3f;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.play{
+    width:50px;
+}
+.small-info{
+    font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    font-size: 20px;
+    color: #201f1f96;
+    
+}
+.hero-section{
+
+    display: flex;
+    gap: 70px;
+}
+.item2{
+    padding-top: 60px ;
+    display: flex;
+    flex-direction: column;
+    gap:50px ;
+  
+}
+.image-div{
+    height: 1000px;
+    width: 80%;
+    background-color:aliceblue ;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-image: url(https://images.unsplash.com/photo-1639012669279-37a7961a4f48?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
